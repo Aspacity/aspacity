@@ -8,7 +8,7 @@ export interface TimelineEvent {
 
 export const COMPANY_STORY: TimelineEvent[] = [
   {
-    year: "2024",
+    year: "2026",
     title: "Foundations & Spatial Experiments",
     subtitle: "Investigating the disconnect between digital ideas and physical spaces.",
     description:
@@ -16,7 +16,7 @@ export const COMPANY_STORY: TimelineEvent[] = [
     status: "Completed",
   },
   {
-    year: "2025",
+    year: "2026",
     title: "PaintIT Studio Launch",
     subtitle: "Our first flagship interactive 3D visualization engine.",
     description:
@@ -24,21 +24,21 @@ export const COMPANY_STORY: TimelineEvent[] = [
     status: "Current Focus",
   },
   {
-    year: "2026",
+    year: "2026+",
     title: "Product Ecosystem Expansion",
-    subtitle: "Connecting DesignIT, BuildIT, FurnishIT, and Trade Marketplaces.",
+    subtitle: "Connecting  FurnishIT.",
     description:
       "Expanding from single-product utility into a unified software ecosystem connecting spatial design, contractor estimation, furniture procurement, and professional trade marketplaces.",
     status: "Upcoming",
   },
-  {
-    year: "2027+",
-    title: "Spatial Intelligence & Neural Compute",
-    subtitle: "Aspacity AI and real-time spatial computing platforms.",
-    description:
-      "Integrating proprietary generative AI models for real-time neural material synthesis, light simulation, and automated spatial planning across physical industries worldwide.",
-    status: "Upcoming",
-  },
+  // {
+  //   year: "2027+",
+  //   title: "Spatial Intelligence & Neural Compute",
+  //   subtitle: "Aspacity AI and real-time spatial computing platforms.",
+  //   description:
+  //     "Integrating proprietary generative AI models for real-time neural material synthesis, light simulation, and automated spatial planning across physical industries worldwide.",
+  //   status: "Upcoming",
+  // },
 ];
 
 export const COMPANY_VALUES = [

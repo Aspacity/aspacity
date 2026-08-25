@@ -11,7 +11,7 @@ export const NAV_LINKS = [
   { name: "Products", href: "/products" },
   { name: "Vision", href: "/vision" },
   { name: "About", href: "/about" },
-  { name: "Research", href: "/research" },
+  // { name: "Research", href: "/research" },
   { name: "Updates", href: "/updates" },
 ];
 
