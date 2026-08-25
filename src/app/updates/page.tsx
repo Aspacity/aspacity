@@ -17,22 +17,22 @@ const UPDATES = [
       "Released complete 100% full-screen canvas modes for PaintIT Studio, added locked 360° horizontal eye-level camera rigs, and integrated persistent sunlight azimuth and elevation saving directly to PostgreSQL.",
     category: "PaintIT Release",
   },
-  {
-    date: "August 16, 2026",
-    version: "Ecosystem Architecture",
-    title: "Official Aspacity Technology Company Website Unveiled",
-    summary:
-      "Unveiled the official Aspacity company portal outlining our broader product ecosystem (PaintIT Studio, DesignIT, BuildIT, SellIT, FurnishIT, Marketplace, and Aspacity AI).",
-    category: "Company News",
-  },
-  {
-    date: "July 30, 2026",
-    version: "Dual DB Sync v1.8",
-    title: "Automatic Offline & Online Background Database Synchronization",
-    summary:
-      "Engineered local storage and IndexedDB fallback engines allowing 3D canvas customization to continue uninterrupted without active internet connections.",
-    category: "Infrastructure",
-  },
+  // {
+  //   date: "August 16, 2026",
+  //   version: "Ecosystem Architecture",
+  //   title: "Official Aspacity Technology Company Website Unveiled",
+  //   summary:
+  //     "Unveiled the official Aspacity company portal outlining our broader product ecosystem (PaintIT Studio, DesignIT, BuildIT, SellIT, FurnishIT, Marketplace, and Aspacity AI).",
+  //   category: "Company News",
+  // },
+  // {
+  //   date: "July 30, 2026",
+  //   version: "Dual DB Sync v1.8",
+  //   title: "Automatic Offline & Online Background Database Synchronization",
+  //   summary:
+  //     "Engineered local storage and IndexedDB fallback engines allowing 3D canvas customization to continue uninterrupted without active internet connections.",
+  //   category: "Infrastructure",
+  // },
 ];
 
 export default function UpdatesPage() {
