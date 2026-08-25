@@ -31,7 +31,7 @@ export const PRODUCTS: ProductItem[] = [
       "Real-time 3D room rendering with custom wall finishes (Emulsion, Gloss, Satin)",
       "Interactive lighting engine with morning, sunset, and night daylight simulation",
       "Custom color mixing and hex code palette management",
-      "Dual online & offline database synchronization",
+      // "Dual online & offline database synchronization",
       "100% full-screen immersive design workspace",
     ],
     metrics: [

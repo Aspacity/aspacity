@@ -94,7 +94,7 @@ export const PaintitFeatured: React.FC = () => {
                 </p>
               </div>
 
-              <div className="bg-neutral-800/80 border border-neutral-750 p-4 rounded-2xl space-y-2">
+              {/* <div className="bg-neutral-800/80 border border-neutral-750 p-4 rounded-2xl space-y-2">
                 <div className="w-8 h-8 rounded-lg bg-brand-orange/20 text-brand-orange flex items-center justify-center">
                   <ShieldCheck className="w-4 h-4" />
                 </div>
@@ -102,7 +102,7 @@ export const PaintitFeatured: React.FC = () => {
                 <p className="text-xs text-neutral-400 leading-relaxed">
                   Works seamlessly both online and offline with background PostgreSQL sync.
                 </p>
-              </div>
+              </div> */}
             </div>
 
             {/* CTAS */}
@@ -110,7 +110,7 @@ export const PaintitFeatured: React.FC = () => {
               <Button
                 variant="orange"
                 size="lg"
-                href="https://paintit.aspacity.com"
+                href="https://paint-it-six.vercel.app"
                 external
                 className="flex items-center gap-2 group"
               >
