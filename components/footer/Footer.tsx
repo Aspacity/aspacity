@@ -41,7 +41,7 @@ export const Footer: React.FC = () => {
                   <span className="text-[9px] font-mono px-1.5 py-0.5 rounded bg-brand-orange text-white">LIVE</span>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/products/designit" className="hover:text-white transition-colors text-neutral-400">
                   DesignIT (In Dev)
                 </Link>
@@ -55,17 +55,17 @@ export const Footer: React.FC = () => {
                 <Link href="/products/sellit" className="hover:text-white transition-colors text-neutral-400">
                   SellIT (In Dev)
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/products/furnishit" className="hover:text-white transition-colors text-neutral-400">
                   FurnishIT (In Dev)
                 </Link>
               </li>
-              <li>
+              {/*<li>
                 <Link href="/products/ai" className="hover:text-white transition-colors text-neutral-400">
                   Aspacity AI
                 </Link>
-              </li>
+              </li>*/}
             </ul>
           </div>
 
@@ -122,11 +122,11 @@ export const Footer: React.FC = () => {
             </ul>
 
             <div className="pt-4 flex items-center gap-3 text-neutral-400 text-xs font-mono">
-              <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange">
+              <a href="https://x.com/Aspacityhq" target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange">
                 X / Twitter
               </a>
               <span>/</span>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange">
+              <a href="https://www.linkedin.com/company/aspacity/" target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange">
                 LinkedIn
               </a>
             </div>
@@ -135,7 +135,7 @@ export const Footer: React.FC = () => {
 
         {/* BOTTOM ACCENT BAR */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-neutral-500">
-          <span>ASPACITY ECOSYSTEM V2.0</span>
+          <span>ASPACITY ECOSYSTEM</span>
           <span>WHITE CANVAS + PRECISE ORANGE ENERGY</span>
         </div>
       </div>
