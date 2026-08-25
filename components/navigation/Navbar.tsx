@@ -117,7 +117,7 @@ export const Navbar: React.FC = () => {
               <Button
                 variant="orange"
                 size="md"
-                href="https://paintit.aspacity.com"
+                href="https://paint-it-six.vercel.app"
                 external
                 className="w-full flex items-center justify-center gap-2"
               >
