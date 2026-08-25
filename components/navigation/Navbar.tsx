@@ -80,7 +80,7 @@ export const Navbar: React.FC = () => {
           <Button
             variant="orange"
             size="sm"
-            href="https://paintit.aspacity.com"
+            href="https://paint-it-six.vercel.app"
             external
             className="flex items-center gap-1.5 group"
           >

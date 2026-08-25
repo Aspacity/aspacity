@@ -15,7 +15,6 @@ export default function HomePage() {
       <ProductEcosystem />
       <PaintitFeatured />
       <VisionSection />
-      {/* <ResearchLabSection /> */}
       <CompanyStory />
     </>
   );
