@@ -128,7 +128,7 @@ export const HeroSection: React.FC = () => {
         <div className="flex items-center gap-8 text-xs font-mono uppercase text-neutral-400">
           <span>01 / ECOSYSTEM</span>
           <span>02 / SPATIAL 3D</span>
-          <span>03 / AI INTELLIGENCE</span>
+          {/*<span>03 / AI INTELLIGENCE</span>*/}
         </div>
       </div>
     </section>
