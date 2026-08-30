@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2.5 text-xs text-neutral-300 font-medium">
               <li>
                 <a
-                  href="https://paintit.aspacity.com"
+                  href="https://paint-it-six.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-brand-orange transition-colors inline-flex items-center gap-1 font-bold text-white"
