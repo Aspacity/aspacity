@@ -54,11 +54,11 @@ export const PaintitFeatured: React.FC = () => {
             </div>
 
             <h2 className="paintit-fade text-4xl sm:text-6xl font-black tracking-tight text-white leading-tight">
-              Meet PaintIT Studio.
+              Meet PAINTIT.
             </h2>
 
             <p className="paintit-fade text-lg sm:text-xl text-neutral-300 font-normal leading-relaxed text-balance">
-              PaintIT Studio helps painters, homeowners, and designers visualize spaces, wall finishes,
+              PAINTIT helps painters, homeowners, and designers visualize spaces, wall finishes,
               and color compositions in interactive 3D before physical work begins.
             </p>
 
@@ -114,7 +114,7 @@ export const PaintitFeatured: React.FC = () => {
                 external
                 className="flex items-center gap-2 group"
               >
-                <span>Visit PaintIT Studio</span>
+                <span>Visit PAINTIT</span>
                 <ArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </Button>
 

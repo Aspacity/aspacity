@@ -1,8 +1,8 @@
 import React from "react";
 
 export const metadata = {
-  title: "Privacy Policy — Aspacity",
-  description: "Aspacity Privacy Policy and data protection standards.",
+  title: "Privacy Policy — Aspacity Identity & Ecosystem",
+  description: "Aspacity Privacy Policy detailing identity data boundaries and product data ownership.",
 };
 
 export default function PrivacyPage() {
@@ -11,30 +11,39 @@ export default function PrivacyPage() {
       <div className="max-w-3xl mx-auto space-y-8 text-brand-charcoal">
         <div className="border-b border-neutral-200 pb-8 space-y-2">
           <span className="text-xs font-mono uppercase tracking-widest text-brand-orange font-bold">
-            LEGAL & TRUST
+            PRIVACY & DATA GOVERNANCE
           </span>
-          <h1 className="text-4xl font-black">Privacy Policy</h1>
-          <p className="text-xs font-mono text-neutral-400">Last updated: August 2026</p>
+          <h1 className="text-4xl font-black">Aspacity Privacy Policy</h1>
+          <p className="text-xs font-mono text-neutral-400">Last updated: August 2026 • Platform Version 2.0</p>
         </div>
 
         <div className="space-y-6 text-sm text-neutral-600 leading-relaxed">
           <p>
-            At Aspacity Technology Inc., we are committed to respecting your privacy and protecting the security of your personal data.
+            Aspacity Technology Inc. (&quot;Aspacity&quot;) values your privacy. This policy explains how we handle personal identity data across the Aspacity Identity Platform and product services like <strong>PAINTIT</strong>.
           </p>
 
-          <h2 className="text-lg font-bold text-brand-charcoal pt-4">1. Data Collection Philosophy</h2>
+          <div className="p-4 bg-amber-50 border border-amber-200 rounded-xl text-amber-900 text-xs">
+            <strong>Legal Notice:</strong> This document outlines data governance architecture. Formal regulatory compliance (e.g., GDPR, NDPR) requires final legal counsel review.
+          </div>
+
+          <h2 className="text-lg font-bold text-brand-charcoal pt-4">1. Data Ownership & Separation</h2>
           <p>
-            We collect only the essential data required to provide and improve our spatial 3D visualization tools, user account profiles, and database synchronization services. We do not sell personal data to third-party brokers.
+            <strong>Aspacity Identity Platform</strong> owns global account identity data (email, name, authentication provider, product access tokens). <strong>PAINTIT</strong> independently owns product domain data (painter profile, 3D scenes, color palettes, project portfolios, client bookings).
           </p>
 
-          <h2 className="text-lg font-bold text-brand-charcoal pt-4">2. Technical & Workspace Data</h2>
+          <h2 className="text-lg font-bold text-brand-charcoal pt-4">2. Identity Claims & Token Transfer</h2>
           <p>
-            When utilizing PaintIT Studio or other Aspacity products, design project configurations (wall colors, finishes, model parameters, and camera presets) are cached locally in your browser and stored securely in our cloud servers to enable cross-device session restoration.
+            When you sign in to PAINTIT using your Aspacity Account, Aspacity issues a cryptographically signed identity claim containing your account ID, verified email, and product role. No passwords or security credentials are ever transmitted to or stored inside product databases.
           </p>
 
-          <h2 className="text-lg font-bold text-brand-charcoal pt-4">3. Contact & Support</h2>
+          <h2 className="text-lg font-bold text-brand-charcoal pt-4">3. Data Minimization</h2>
           <p>
-            For privacy inquiries or account data removal requests, please contact our team at privacy@aspacity.com.
+            We adhere to data minimization principles. We only collect identity information strictly necessary for secure account management, single-sign-on verification, and product delivery.
+          </p>
+
+          <h2 className="text-lg font-bold text-brand-charcoal pt-4">4. Account Deletion Rights</h2>
+          <p>
+            Users can request global Aspacity Account deletion at any time via Account Settings or by contacting support. Account deletion revokes product memberships and initiates automated product data anonymization.
           </p>
         </div>
       </div>

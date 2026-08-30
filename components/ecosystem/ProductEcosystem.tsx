@@ -55,7 +55,7 @@ export const ProductEcosystem: React.FC = () => {
           </h2>
           <p className="mt-4 text-base md:text-lg text-neutral-600 leading-relaxed">
             Explore our expanding suite of visual, spatial, and trade management platforms.
-            PaintIT Studio is available today; our future tools are in active development.
+            PAINTIT is available today; our future tools are in active development.
           </p>
         </div>
 

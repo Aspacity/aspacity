@@ -17,10 +17,10 @@ export const COMPANY_STORY: TimelineEvent[] = [
   },
   {
     year: "2026",
-    title: "PaintIT Studio Launch",
+    title: "PAINTIT Launch",
     subtitle: "Our first flagship interactive 3D visualization engine.",
     description:
-      "We engineered PaintIT Studio — an interactive 3D web environment allowing painters, designers, and homeowners to test exact wall colors, sheen finishes, and natural light conditions before opening a single paint can.",
+      "We engineered PAINTIT — an interactive 3D web environment allowing painters, designers, and homeowners to test exact wall colors, sheen finishes, and natural light conditions before opening a single paint can.",
     status: "Current Focus",
   },
   {

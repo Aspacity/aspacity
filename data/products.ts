@@ -17,11 +17,11 @@ export interface ProductItem {
 export const PRODUCTS: ProductItem[] = [
   {
     id: "paintit",
-    name: "PaintIT Studio",
+    name: "PAINTIT",
     slug: "paintit",
     tagline: "Interactive 3D visualization and real-time spatial painting tools.",
     description:
-      "PaintIT Studio enables painters, homeowners, interior architects, and designers to visualize spaces, wall sheens, lighting environments, and color compositions in interactive 3D before physical work begins.",
+      "PAINTIT enables painters, homeowners, interior architects, and designers to visualize spaces, wall sheens, lighting environments, and color compositions in interactive 3D before physical work begins.",
     status: "LIVE PRODUCT",
     isLive: true,
     category: "Visual Spatial",
